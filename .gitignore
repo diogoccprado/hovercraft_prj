@@ -2,11 +2,25 @@
 build/
 sdkconfig
 sdkconfig.old
+
 # VSCode/CLion
 .vscode/
 .idea/
+
 # Python
 __pycache__/
 *.pyc
+.venv/
+venv/
+
 # Secrets
 components/net_mqtt/include/secrets.h
+
+# Runtime logs
+hovercraft_log.csv
+*.log
+
+# Precompiled host binaries (rebuild from source)
+host_tools/hovercraft_pipeline
+host_tools/hc_traj_viewer
+host_tools/hovercraft_stop_test
