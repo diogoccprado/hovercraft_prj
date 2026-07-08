@@ -1,6 +1,8 @@
 # Cleanup Notes — Tracked Artifacts
 
-These files are currently tracked in git but should not be. They have been added to `.gitignore`. **Do not run the commands below until you have reviewed them.** They remove files from the git index only—not from disk.
+These files were previously tracked in git but should not be. They are listed in `.gitignore`. The cleanup was applied in commit `61ebc91`. This file is kept as reference.
+
+If you clone on a new machine, `.venv/` and precompiled binaries are not in the repo — rebuild locally as needed.
 
 ## 1. Python virtual environment (`.venv/`)
 
